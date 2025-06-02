@@ -37,7 +37,7 @@ module.exports = {
   LOG_MSG: process.env.LOG_MSG || 'false',
   RMBG_KEY: process.env.RMBG_KEY || 'null',
   BAILEYS_LOG_LVL: process.env.BAILEYS_LOG_LVL || 'silent',
-  LANG: (process.env.LANGUAG || 'en').toLowerCase(),
+  LANG: (process.env.LANGUAG || 'fr').toLowerCase(),
   WARN_LIMIT: process.env.WARN_LIMIT || 3,
   FORCE_LOGOUT: process.env.FORCE_LOGOUT || 'false',
   BRAINSHOP: process.env.BRAINSHOP || '159501,6pq8dPiYt7PdqHz3',
